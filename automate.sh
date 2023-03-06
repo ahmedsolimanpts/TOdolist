@@ -12,6 +12,6 @@ sudo docker build -t  big_pizza .
 # sudo docker run -p 8000:8000 big_pizza
 git add .
 
-git commmit -m "automate commit"
+git commit -m "automate commit"
 
 git push origin main
