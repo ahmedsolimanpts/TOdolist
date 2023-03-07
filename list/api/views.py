@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from ..models import List
+from ..models import Tasks
 from .serializers import ListSerializers
 class TODOList(ModelViewSet):
-    queryset = List.objects.all()
+    queryset = Tasks.objects.all()
     serializer_class = ListSerializers

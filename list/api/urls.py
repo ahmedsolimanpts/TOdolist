@@ -3,7 +3,7 @@ from .views import *
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
-router.register('task',TODOList,basename="menu")
+router.register('task',TODOList,basename="task")
 
 get_post_tasks = TODOList.as_view({'get':'list','post':'create'})
 
