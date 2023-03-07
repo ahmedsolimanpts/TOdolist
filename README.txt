@@ -17,7 +17,7 @@
             }
 - " host/api/task/pk :
     meta_data:
-        - pk in the url is the primary key for the record to update or delete or retreive"Dynamic"
+        - pk in the url is the primary key for the record to update or delete or retreive "Dynamic"
     method:
         - GET , PUT ,DELETE
     description:
